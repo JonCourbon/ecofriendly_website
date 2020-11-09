@@ -1,6 +1,6 @@
 ---
 title: The basic website
-date: 2020-11-04
+postedOnDate: 2020-11-04
 tags: ["Hugo","minify"]
 ---
 

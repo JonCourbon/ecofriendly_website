@@ -1,8 +1,34 @@
-baseURL = "/"
+baseURL = "https://joncourbon.github.io/hugoexperimentation/"
 languageCode = "en-us"
 title = "Experimenting Hugo !"
 theme = "beautifulhugo"
 publishDir = "docs"
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = true
+  [minify.tdewolff]
+    [minify.tdewolff.css]
+      decimals = -1
+      keepCSS2 = true
+    [minify.tdewolff.html]
+      keepConditionalComments = true
+      keepDefaultAttrVals = true
+      keepDocumentTags = true
+      keepEndTags = true
+      keepQuotes = true
+      keepWhitespace = false
+    [minify.tdewolff.js]
+    [minify.tdewolff.json]
+    [minify.tdewolff.svg]
+      decimals = -1
+    [minify.tdewolff.xml]
+      keepWhitespace = false
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
@@ -73,3 +99,4 @@ publishDir = "docs"
     name = "Tags"
     url = "tags"
     weight = 4
+

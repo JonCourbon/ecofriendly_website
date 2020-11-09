@@ -1,6 +1,6 @@
 ---
 title: Asset concatenation and minification
-date: 2020-11-05
+postedOnDate: 2020-11-05
 tags: ["Hugo","minify","concat"]
 
 ---
