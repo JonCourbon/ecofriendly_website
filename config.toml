@@ -1,0 +1,75 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Experimenting Hugo !"
+theme = "beautifulhugo"
+publishDir = "docs"
+
+[Params]
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "Experiments on using Hugo to build a light-weight website"
+  mainSections = ["post","posts"]
+  logo = "img/avatar-icon.png" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = false
+  readingTime = true
+  wordCount = false
+  useHLJS = false
+  socialShare = true
+#  delayDisqus = true
+  showRelatedPosts = true
+  hideAuthor = true
+  publishDir="docs"
+
+[Author]
+  name = "Jonathan Courbon"
+#  website = "yourwebsite.com"
+#  email = "youremail@domain.com"
+#  facebook = "username"
+#  github = "username"
+#  gitlab = "username"
+#  bitbucket = "username"
+#  twitter = "username"
+#  reddit = "username"
+#  linkedin = "username"
+#  xing = "username"
+#  stackoverflow = "users/XXXXXXX/username"
+#  snapchat = "username"
+#  instagram = "username"
+#  youtube = "user/username" # or channel/channelname
+#  soundcloud = "username"
+#  spotify = "username"
+#  bandcamp = "username"
+#  itchio = "username"
+#  vk = "username"
+#  paypal = "username"
+#  telegram = "username"
+#  500px = "username"
+#  codepen = "username"
+#  mastodon = "url"
+#  kaggle = "username"
+#  weibo = "username"
+#  slack = "username"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    identifier = "ressources"
+    name = "Ressources"
+    url="/ressources/"
+    weight = 2
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 4
