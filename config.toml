@@ -61,7 +61,7 @@ publishDir = "docs"
 [[menu.main]]
     identifier = "ressources"
     name = "Ressources"
-    url="/ressources/"
+    url="ressources/"
     weight = 2
 
 [[menu.main]]
