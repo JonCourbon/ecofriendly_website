@@ -4,7 +4,7 @@ date: 2020-11-04
 tags: ["Hugo","minify"]
 ---
 
-I started coding the website using [Hugo!]({{< ref "/ressources/2020-11-03-hugo.md" >}})
+I started coding the website using [Hugo!]({{< ref "/ressources/coding/2020-11-03-hugo.md" >}})
 <!--more-->
 
 Creation of the website:
@@ -28,14 +28,14 @@ Modify config.toml
     theme="lighttemplate"
 
 ## Template files
-We chose the minimalist CSS framework: [Milligram]({{< ref "/ressources/2020-11-04-csslib.md" >}})
+We chose the minimalist CSS framework: [Milligram]({{< ref "/ressources/coding/2020-11-04-csslib.md" >}})
 
     <link rel="stylesheet" href="{{ "css/milligram.css" | relURL }}">
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 
 
 ## Minification
-Hugo allows [minification]({{< ref "/ressources/2020-11-04-assetconcatminify.md" >}}) when building the website. We plan to apply post-process minification when building the production website.
+Hugo allows [minification]({{< ref "/ressources/coding/2020-11-04-assetconcatminify.md" >}}) when building the website. We plan to apply post-process minification when building the production website.
 
 Hugo documentation: [Minification (in production)](https://gohugo.io/getting-started/configuration/#configure-minify)
 

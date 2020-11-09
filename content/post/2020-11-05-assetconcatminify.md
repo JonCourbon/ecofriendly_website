@@ -35,7 +35,7 @@ Link file
 
 ## Asset pipeline with Post-Processing in production
 We want to apply post-processing in production step, as for instance purging unused CSS. These modifications have to be applied after the website has been built.
-Refer to: {{< ref "/ressources/2020-11-05-purgecss.md" >}}
+Refer to: {{< ref "/ressources/coding/2020-11-05-purgecss.md" >}}
 
 First of all, we need to obtain some stats while generating the website. Since some versions, Hugo allows the generation of stats (results are in the file: hugo_stats.json)
 

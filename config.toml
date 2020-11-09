@@ -1,14 +1,14 @@
 baseURL = "/"
 DefaultContentLanguage = "en"
-title = "Experimenting Hugo !"
+title = "Towards eco-friendly websites !"
 theme = "beautifulhugo"
 
 metaDataFormat = "yaml"
 publishDir = "docs"
 
 [Params]
-  homeTitle = "Hugo and eco-friendly websites" # Set a different text for the header on the home page
-  subtitle = "Experiments on using Hugo to build an eco-friendly website"
+  #homeTitle = "Hugo and eco-friendly websites" # Set a different text for the header on the home page
+  subtitle = "Experiments on building an eco-friendly website"
   mainSections = ["post","posts"]
   logo = "img/logo.jpg" # Expecting square dimensions
   favicon = "img/favicon.ico"
@@ -65,6 +65,13 @@ publishDir = "docs"
     name = "Ressources"
     url="ressources/"
     weight = 2
+
+[[menu.main]]
+    identifier = "coding"
+    name = "Coding"
+    url = "ressources/coding"
+    parent = "ressources"
+    weight = 1
 
 [[menu.main]]
     name = "About"
