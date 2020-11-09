@@ -1,43 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>css on Experimenting Hugo !</title>
-    <link>https://joncourbon.github.io/hugoexperimentation/tags/css/</link>
-    <description>Recent content in css on Experimenting Hugo !</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 05 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://joncourbon.github.io/hugoexperimentation/tags/css/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Removing un-necessary codes</title>
-      <link>https://joncourbon.github.io/hugoexperimentation/ressources/2020-11-05-purgecss/</link>
-      <pubDate>Thu, 05 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://joncourbon.github.io/hugoexperimentation/ressources/2020-11-05-purgecss/</guid>
-      <description>Purging CSS Many CSS files (from frameworks) are used when coding a website. But in practise, only a small set of the framework is used, and a lot of unused CSS styles will be included. To reduce files size, it is desiderable to remove unused selectors from CSS, resulting in smaller CSS files. This can be done only in a post-process steps as it requires knowing required CSS !
-Example tools:</description>
-    </item>
-    
-    <item>
-      <title>Asset concatenation and minification</title>
-      <link>https://joncourbon.github.io/hugoexperimentation/ressources/2020-11-04-assetconcatminify/</link>
-      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://joncourbon.github.io/hugoexperimentation/ressources/2020-11-04-assetconcatminify/</guid>
-      <description>Most of the files used in websites are text-based: HTML, CSS, Js. During development, comments, spaces and indentation are required to improve code lisibility. However, these elements make the files heavy whereas they are not necessary for a functionality point of view.
-Minification is the process that removes characters (white space, new line, comment out code) or modifies some unnecessary characters from the code. It compresses the original size to the smallest size and does not affect to the operation of the code.</description>
-    </item>
-    
-    <item>
-      <title>Milligram (CSS Framework)</title>
-      <link>https://joncourbon.github.io/hugoexperimentation/ressources/2020-11-04-csslib/</link>
-      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://joncourbon.github.io/hugoexperimentation/ressources/2020-11-04-csslib/</guid>
-      <description>We chose the minimalist CSS framework: Milligram https://milligram.io/ because:
- it&amp;rsquo;s a minimal setup of styles it&amp;rsquo;s only 2kb gzipped  It has some usefull functionnalities:
- The Grid is a fluid system with a max width of 112.0rem (1120px), that shrinks with the browser/device at smaller sizes.  Drawbacks:
- Milligram uses the font-family Roboto (thus the font files must be loaded)  </description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>css on Experimenting Hugo !</title><link>https://joncourbon.github.io/hugoexperimentation/tags/css/</link><description>Recent content in css on Experimenting Hugo !</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 05 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://joncourbon.github.io/hugoexperimentation/tags/css/index.xml" rel="self" type="application/rss+xml"/><item><title>Removing un-necessary codes</title><link>https://joncourbon.github.io/hugoexperimentation/ressources/2020-11-05-purgecss/</link><pubDate>Thu, 05 Nov 2020 00:00:00 +0000</pubDate><guid>https://joncourbon.github.io/hugoexperimentation/ressources/2020-11-05-purgecss/</guid><description>Purging CSS Many CSS files (from frameworks) are used when coding a website. But in practise, only a small set of the framework is used, and a lot of unused CSS styles will be included. To reduce files size, it is desiderable to remove unused selectors from CSS, resulting in smaller CSS files. This can be done only in a post-process steps as it requires knowing required CSS !
+Example tools:</description></item><item><title>Asset concatenation and minification</title><link>https://joncourbon.github.io/hugoexperimentation/ressources/2020-11-04-assetconcatminify/</link><pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate><guid>https://joncourbon.github.io/hugoexperimentation/ressources/2020-11-04-assetconcatminify/</guid><description>Most of the files used in websites are text-based: HTML, CSS, Js. During development, comments, spaces and indentation are required to improve code lisibility. However, these elements make the files heavy whereas they are not necessary for a functionality point of view.
+Minification is the process that removes characters (white space, new line, comment out code) or modifies some unnecessary characters from the code. It compresses the original size to the smallest size and does not affect to the operation of the code.</description></item><item><title>Milligram (CSS Framework)</title><link>https://joncourbon.github.io/hugoexperimentation/ressources/2020-11-04-csslib/</link><pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate><guid>https://joncourbon.github.io/hugoexperimentation/ressources/2020-11-04-csslib/</guid><description>We chose the minimalist CSS framework: Milligram https://milligram.io/ because:
+it&amp;rsquo;s a minimal setup of styles it&amp;rsquo;s only 2kb gzipped It has some usefull functionnalities:
+The Grid is a fluid system with a max width of 112.0rem (1120px), that shrinks with the browser/device at smaller sizes. Drawbacks:
+Milligram uses the font-family Roboto (thus the font files must be loaded)</description></item></channel></rss>
