@@ -35,7 +35,7 @@ publishDir = "docs"
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Experiments on using Hugo to build a light-weight website"
+  subtitle = "Experiments on using Hugo to build an eco-friendly website"
   mainSections = ["post","posts"]
   logo = "img/logo.jpg" # Expecting square dimensions
   favicon = "img/favicon.ico"
