@@ -1,6 +1,5 @@
 baseURL = "/"
 DefaultContentLanguage = "en"
-languageCode = "en-us"
 title = "Experimenting Hugo !"
 theme = "beautifulhugo"
 
