@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://joncourbon.github.io/hugoexperimentation"
 languageCode = "en-us"
 title = "Experimenting Hugo !"
 theme = "beautifulhugo"
