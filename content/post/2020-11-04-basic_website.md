@@ -4,8 +4,8 @@ date: 2020-11-04
 tags: ["Hugo","minify"]
 ---
 
-We have decided to build our website using Hugo! {{< ref "/ressources/2020-11-03-hugo.md" >}}
-
+I started coding the website using Hugo! {{< ref "/ressources/2020-11-03-hugo.md" >}}
+<!--more-->
 
 Creation of the website:
 

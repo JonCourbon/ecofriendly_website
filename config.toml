@@ -1,7 +1,10 @@
 baseURL = "/"
+DefaultContentLanguage = "en"
 languageCode = "en-us"
 title = "Experimenting Hugo !"
 theme = "beautifulhugo"
+
+metaDataFormat = "yaml"
 publishDir = "docs"
 
 [Params]

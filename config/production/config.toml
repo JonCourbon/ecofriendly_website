@@ -1,7 +1,10 @@
 baseURL = "https://joncourbon.github.io/hugoexperimentation/"
+DefaultContentLanguage = "en"
 languageCode = "en-us"
 title = "Experimenting Hugo !"
 theme = "beautifulhugo"
+
+metaDataFormat = "yaml"
 publishDir = "docs"
 
 [minify]
@@ -34,7 +37,7 @@ publishDir = "docs"
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
   subtitle = "Experiments on using Hugo to build a light-weight website"
   mainSections = ["post","posts"]
-  logo = "img/avatar-icon.png" # Expecting square dimensions
+  logo = "img/logo.jpg" # Expecting square dimensions
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
@@ -54,12 +57,12 @@ publishDir = "docs"
 #  website = "yourwebsite.com"
 #  email = "youremail@domain.com"
 #  facebook = "username"
-#  github = "username"
+  github = "JonCourbon"
 #  gitlab = "username"
 #  bitbucket = "username"
 #  twitter = "username"
 #  reddit = "username"
-#  linkedin = "username"
+  linkedin = "courbonjonathan"
 #  xing = "username"
 #  stackoverflow = "users/XXXXXXX/username"
 #  snapchat = "username"

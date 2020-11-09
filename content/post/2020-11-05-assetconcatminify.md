@@ -5,6 +5,9 @@ tags: ["Hugo","minify","concat"]
 
 ---
 
+I've added the elements such that CSS files will be concatenated and minified as well as post-processed (CSS purge).
+
+<!--more-->
 Initial elements (with CSS files in the static/ folder)
 
     <link rel="stylesheet" href="{{ "css/milligram.css" | relURL }}">

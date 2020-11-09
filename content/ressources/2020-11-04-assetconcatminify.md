@@ -7,6 +7,7 @@ tags: ["concat","minify","css"]
 ---
 
 Most of the files used in websites are text-based: HTML, CSS, Js. During development, comments, spaces and indentation are required to improve code lisibility. However, these elements make the files heavy whereas they are not necessary for a functionality point of view.
+<!--more-->
 
 **Minification** is the process that removes characters (white space, new line, comment out code) or modifies some unnecessary characters from the code. It compresses the original size to the smallest size and does not affect to the operation of the code. The smaller size of the resources means less traffic between the server and client. In the server, less storage is required.
 
