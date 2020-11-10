@@ -7,15 +7,19 @@ tags: ["Hugo","resize"]
 
 The images weight is one of the most important element to be care of !
 
+## VERSION 1
+(not functionning while building in production)
+
 - Contrary to files concatenation and minification, most of the images are included in pages (not in the page layout) => we will use a shortcode to enable its use
 - We will use asset pipelines => ressources that will be processed must be in the folder **assets/**
 
-## Proposed organisation of files and images
+<!--more-->
+### Proposed organisation of files and images
 The image is in the folder **assets/images/**, subfolder: subfolder of the page relative to *content/*, subfolder: name of the page (without extension)
 
 {{< figure src="/img/image_filetree.jpg" title="File tree for images" >}}
 
-## Custom shortcode
+### Custom shortcode
 
 Shortcode in file **resize-image.html**
 
