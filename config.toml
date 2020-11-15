@@ -74,6 +74,13 @@ publishDir = "docs"
     weight = 1
 
 [[menu.main]]
+    identifier = "design"
+    name = "Design"
+    url = "ressources/design"
+    parent = "ressources"
+    weight = 2
+
+[[menu.main]]
     name = "About"
     url = "page/about/"
     weight = 3
