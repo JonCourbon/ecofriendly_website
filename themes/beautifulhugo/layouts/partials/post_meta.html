@@ -1,10 +1,6 @@
 <span class="post-meta">
-  {{ $lastmodstr := default (i18n "dateFormat") .Site.Params.dateformat | .Lastmod.Format }}
-  {{ $datestr := default (i18n "dateFormat") .Site.Params.dateformat | .Date.Format }}
-  <i class="fas fa-calendar"></i>&nbsp;{{ $datestr | i18n "postedOnDate"}}
-  {{ if ne $datestr $lastmodstr }}
-    &nbsp;{{ $lastmodstr | i18n "lastModified"  }}
-  {{ end }}
+  <i class="fas fa-calendar"></i>&nbsp;
+  {{ .PublishDate.Format "January 2, 2006" }}
   {{ if .Site.Params.readingTime }}
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;{{ i18n "readingTime"}}{{ .ReadingTime }}&nbsp;{{ i18n "readTime" }}
   {{ end }}
@@ -42,4 +38,3 @@
     &nbsp;&bull;&nbsp;{{ i18n "translationsLabel" }}{{ $linksOutput }}
   {{- end }}
 </span>
-
