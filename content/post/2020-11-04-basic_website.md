@@ -2,6 +2,7 @@
 title: Creation of the website
 date: 2020-11-04
 tags: ["Hugo","minify"]
+author: "Jonathan Courbon"
 ---
 
 I started coding the website using [Hugo!]({{< ref "/ressources/coding/2020-11-03-hugo.md" >}})

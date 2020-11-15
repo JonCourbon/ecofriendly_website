@@ -3,6 +3,7 @@ title: Asset concatenation and minification
 date: 2020-11-04
 
 tags: ["concat","minify","css"]
+author: "Jonathan Courbon"
 
 ---
 
@@ -19,5 +20,3 @@ Most of the files used in websites are text-based: HTML, CSS, Js. During develop
 - Hugo tools:
   - [https://gohugo.io/hugo-pipes/bundling/](https://gohugo.io/hugo-pipes/bundling/)
   - hugo --minify (to minify final CSS, JS and HTML files...)
-
-

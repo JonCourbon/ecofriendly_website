@@ -2,6 +2,7 @@
 title: Adding image processing functionalities
 date: 2020-11-10
 tags: ["Hugo","resize"]
+author: "Jonathan Courbon"
 
 ---
 

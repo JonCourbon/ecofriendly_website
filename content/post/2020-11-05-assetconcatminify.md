@@ -2,6 +2,7 @@
 title: Adding concatenation and minification functionalities
 date: 2020-11-05
 tags: ["Hugo","minify","concat"]
+author: "Jonathan Courbon"
 
 ---
 

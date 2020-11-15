@@ -2,6 +2,8 @@
 title: Search tools
 date: 2020-11-12
 tags: ["Hugo"]
+author: "Jonathan Courbon"
+
 ---
 
 # Search tools

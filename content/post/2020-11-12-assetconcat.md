@@ -2,6 +2,7 @@
 title: Adding concatenation and minification functionalities Js Files
 date: 2020-11-05
 tags: ["Hugo","minify","concat"]
+author: "Jonathan Courbon"
 
 ---
 Similarly to CSS, Js files can be concatenated dans minified (in production).

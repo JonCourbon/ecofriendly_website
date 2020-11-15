@@ -22,7 +22,7 @@ publishDir = "docs"
   socialShare = true
 #  delayDisqus = true
   showRelatedPosts = true
-  hideAuthor = true
+  hideAuthor = false
   publishDir="docs"
 
 [Author]
