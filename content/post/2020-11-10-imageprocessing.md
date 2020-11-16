@@ -14,7 +14,7 @@ We want to reduce image weight (not providing "responsive" set of images ie. dif
 
 <!--more-->
 ## Proposed organisation of files and images
-The image is in the folder **assets/img/posts/**, subfolder: name of the page (without extension)
+The images for the *posts* is in the folder **assets/img/posts/**, subfolder: name of the page (without extension)
 
 
 ## Custom shortcode
