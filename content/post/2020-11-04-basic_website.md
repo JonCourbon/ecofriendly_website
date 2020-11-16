@@ -5,10 +5,10 @@ tags: ["Hugo","minify"]
 author: "Jonathan Courbon"
 ---
 
-I started coding the website using [Hugo!]({{< ref "/ressources/coding/2020-11-03-hugo.md" >}})
+As mentionned the page about [Hugo!]({{< ref "/ressources/coding/2020-11-03-hugo.md" >}}), Hugo is a good choice to create a static website.
 <!--more-->
 
-Creation of the website:
+We can create a new website (supposed to be in the folder mmiLePuy) using the commands :
 
     hugo new site mmiLePuy
     cd mmiLePuy
@@ -40,7 +40,7 @@ Hugo allows [minification]({{< ref "/ressources/coding/2020-11-04-assetconcatmin
 
 Hugo documentation: [Minification (in production)](https://gohugo.io/getting-started/configuration/#configure-minify)
 
-In the folder config/production/ add or modify the config.toml file:
+It is preferable to create a configuration file for production separately. In the folder *config/production/*, we add or modify the config.toml file:
 
     [minify]
       disableCSS = false
@@ -68,7 +68,9 @@ In the folder config/production/ add or modify the config.toml file:
         [minify.tdewolff.xml]
           keepWhitespace = false
 
-Call
+To build the website for production, simply call the hugo command (with parameter **minify** to apply minification)
     hugo --minify
 
-to apply minification to the output (public/ folder)
+By default, the built website is in the folder **public/**
+
+For this website, post-process have been applied (minification... or other pipes).
