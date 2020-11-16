@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>asset bundling on Towards eco-friendly websites !</title><link>https://joncourbon.github.io/ecofriendly_website/tags/asset-bundling/</link><description>Recent content in asset bundling on Towards eco-friendly websites !</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 05 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://joncourbon.github.io/ecofriendly_website/tags/asset-bundling/index.xml" rel="self" type="application/rss+xml"/><item><title>Adding concatenation and minification functionalities</title><link>https://joncourbon.github.io/ecofriendly_website/post/2020-11-05-assetconcatminify/</link><pubDate>Thu, 05 Nov 2020 00:00:00 +0000</pubDate><guid>https://joncourbon.github.io/ecofriendly_website/post/2020-11-05-assetconcatminify/</guid><description>&lt;p>In our initial website &lt;em>baseof.html&lt;/em> template, two CSS files are required. In a classical Hugo website, those files are located in the &lt;em>static/&lt;/em> folder in order to be found.&lt;/p>
+&lt;pre>&lt;code>&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;{{ &amp;quot;css/milligram.css&amp;quot; | relURL }}&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;{{ &amp;quot;css/style.css&amp;quot; | relURL }}&amp;quot;&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;p>The weight of CSS files has to be limited as well as the number of request to the server. For a programming point-of-view, the key processes are:&lt;/p>
+&lt;ul>
+&lt;li>files concatenation and minification =&amp;gt; it can be done during the creation of the website by Hugo!&lt;/li>
+&lt;li>purge un-necessary CSS classes =&amp;gt; post-process&lt;/li>
+&lt;/ul></description></item></channel></rss>
