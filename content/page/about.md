@@ -4,7 +4,7 @@ subtitle: Why this project
 comments: false
 ---
 
-We are teachers in the Departement "Métiers du Multimédia et de l’Internet" in the Université Clermont Auvergne (France) in the Campus of Le Puy-en-Velay. We train our students to the design of communication media including design and web technologies.
+We are teachers in the Departement "Métiers du Multimédia et de l'Internet" in the Université Clermont Auvergne (France) in the Campus of Le Puy-en-Velay. We train our students to the design of communication media including design and web technologies.
 It is important that we address the hot topics:
 - accessibility => design and develop media so that people with disabilities can use them
 - eco-design => producing media that meet the customers' needs while using the minimum levels of resources and having a minimum impact on the environment and society
